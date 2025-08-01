@@ -10,7 +10,5 @@ Week02-作业安排
 1、在“LoRA 低秩适配 OpenAI Whisper-Large-V2 语音识别任务”中，为中文语料的训练过程增加过程评估，观察 Train Loss 和 Validation Loss 变化。课程代码（ https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_lora_whisper-large-v2.ipynb ） 
 2、在“LoRA 低秩适配 OpenAI Whisper-Large-V2 语音识别任务”中，当 LoRA 模型训练完成后，使用测试集进行完整的模型评估。课程代码（ https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_lora_whisper-large-v2.ipynb ） 
 
-【作业提交方式】 
 
-将执行完的 ipynb 文件（有运行结果）上传至 GitHub，然后将相关 ipynb 的 GitHub 链接（比如： https://github.com/DjangoPeng/LLM-quickstart/blob/main/transformers/pipelines.ipynb ） 复制到调查问卷https://jinshuju.com/f/RfrLKa中，填写并“提交”即可。
 
