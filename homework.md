@@ -44,6 +44,54 @@ https://github.com/ZhigangY/ai-start/blob/main/week2/2.ipynb ,
 https://github.com/ZhigangY/ai-start/blob/main/week2/3.ipynb , 
 https://github.com/ZhigangY/ai-start/blob/main/week2/4.ipynb
 
-huggingface-cli download --resume-download facebook/opt-6.7b
+huggingface-cli download  facebook/opt-6.7b
 
 
+hf download zai-org/chatglm3-6b
+
+
+2、本周学习安排：
+ 
+Week03-学习安排 
+
+第三周【模型量化技术】+【ChatGLM 微调实战 (QLoRA)】的学习已开启，大家要积极参与呀，本周主要安排如下： 
+
+【本周学习内容】 
+本周线上课程约5小时：AI大模型微调实战营（3/5）部分章节，如已完成学习，可复习后再完成作业。
+AI大模型微调实战营（3/5）： https://ilearn.gientech.com/courseMain?courseId=7577
+包含：
+第八章：大模型量化技术入门与实战 (GPTQ, AWQ)
+第九章：GLM 大模型家族与 ChatGLM3 6B 微调入门 (QLoRA) 
+第十章：实战私有数据微调 ChatGLM3 (AdvertiseGen 数据集微调部分)
+
+ [爱心] 学习任务已经开始，即刻开启线上学习 [爱心]
+
+ Week03-作业安排 
+
+第三周作业一: 
+1、使用 GPTQ 量化 OPT-6.7B 模型。课程代码（ https://github.com/DjangoPeng/LLM-quickstart/blob/main/quantization/AutoGPTQ_opt-2.7b.ipynb ）
+2、使用 AWQ 量化 Facebook OPT-6.7B 模型。Facebook OPT 模型地址： https://huggingface.co/facebook?search_models=opt
+
+课程代码： https://github.com/DjangoPeng/LLM-quickstart/blob/main/quantization/AWQ_opt-2.7b.ipynb
+https://github.com/DjangoPeng/LLM-quickstart/blob/main/quantization/AWQ-opt-125m.ipynb
+
+第三周作业二： 根据硬件资源情况，在 AdvertiseGen 数据集上使用 QLoRA 微调 ChatGLM3-6B 至少 10K examples，观察 Loss 变化情况，并对比微调前后模型输出结果。
+
+课程代码： 
+https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_qlora_chatglm.ipynb
+https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_chatglm_inference.ipynb
+
+【作业提交方式】 
+
+将执行完的 ipynb 文件（有运行结果）上传至 GitHub，然后将相关 ipynb 的 GitHub 链接（比如： https://github.com/DjangoPeng/LLM-quickstart/blob/main/transformers/pipelines.ipynb ） 复制到调查问卷https://jinshuju.com/f/RZUVDF   中，填写并“提交”即可。
+
+有关于本周作业，助教吴老师贴心的为大家划了重点，准备了作业注意事项，大家可以仔细阅读下哦~@全体成员 
+
+第三周作业一：
+
+[爱心]学习重点：学习如何使用GPTQ和AWQ量化模型，并使用量化后的模型执行任务。
+[闹钟][怒]注意点：1.6.7B的模型在T4显卡16GB显存会OOM，如果有条件使用24GB显存显卡的可以尝试量化6.7B模型，如果只能使用T4显卡做作业的，可以使用小尺寸的模型进行量化。
+
+第三周作业二：
+[爱心]学习重点：学习如何使用 QLoRA 微调模型。
+[闹钟]注意点：最终提交作业包含两个文件：一个是微调的jupyternote，一个是使用 QLoRA 微调后的 ChatGLM3-6B进行模型推理的jupternote。
