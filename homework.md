@@ -95,3 +95,6 @@ https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_chatglm_inferen
 第三周作业二：
 [爱心]学习重点：学习如何使用 QLoRA 微调模型。
 [闹钟]注意点：最终提交作业包含两个文件：一个是微调的jupyternote，一个是使用 QLoRA 微调后的 ChatGLM3-6B进行模型推理的jupternote。
+
+https://github.com/ZhigangY/ai-start/blob/main/week3/AWQ_opt-6.7b.ipynb , https://github.com/ZhigangY/ai-start/blob/main/week3/peft_qlora_chatglm.ipynb , https://github.com/ZhigangY/ai-start/blob/main/week3/peft_chatglm_inference.ipynb
+
