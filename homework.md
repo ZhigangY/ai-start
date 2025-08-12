@@ -98,3 +98,16 @@ https://github.com/DjangoPeng/LLM-quickstart/blob/main/peft/peft_chatglm_inferen
 
 https://github.com/ZhigangY/ai-start/blob/main/week3/AWQ_opt-6.7b.ipynb , https://github.com/ZhigangY/ai-start/blob/main/week3/peft_qlora_chatglm.ipynb , https://github.com/ZhigangY/ai-start/blob/main/week3/peft_chatglm_inference.ipynb
 
+Week04-作业安排 
+第四周作业：
+1、基于 data 目录下的数据训练 ChatGLM3 模型，使用 inference Notebook 对比微调前后的效果。
+2、（可选）：将 gen_dataset Notebook 改写为 py 文件。
+作业代码：
+微调的代码：https://github.com/DjangoPeng/LLM-quickstart/blob/main/chatglm/qlora_chatglm3_timestamp.ipynb
+使用微调后模型进行推理的代码：https://github.com/DjangoPeng/LLM-quickstart/blob/main/chatglm/chatglm_inference.ipynb
+生成数据集的代码：https://github.com/RorschachWwww/LLM-quickstart/blob/main/chatglm/gen_dataset.ipynb
+
+【作业提交方式】 
+
+将执行完的 ipynb 文件（有运行结果）上传至 GitHub，然后将相关 ipynb 的 GitHub 链接（比如： https://github.com/DjangoPeng/LLM-quickstart/blob/main/transformers/pipelines.ipynb ） 复制到调查问卷 https://jinshuju.com/f/Hxyatm  中，填写并“提交”即可。
+
